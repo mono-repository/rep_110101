@@ -25,4 +25,9 @@ production:
   adapter: postgresql
   encoding: unicode
   pool: 5
+  #
+  database: sohutoueakai_fa_yan_xi
+  username: sohutoueakai_fa_yan_xi_user
+  password: <%= ENV['MYSITE_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
   #database: db/production.sqlite3
