@@ -49,6 +49,8 @@ The key's randomart image is:
 |  .=*+.... .oo.oo|
 +----[SHA256]-----+
 
+passphrase : classroom
+
 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
 >>>>>>>>> local version
 
