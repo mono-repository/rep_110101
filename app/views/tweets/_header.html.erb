@@ -1,0 +1,40 @@
+<nav class="navbar">
+  <div class="container">
+    <ul class="nav">
+      <li class="btn"><a href="#index">ツイート</a></li>
+      <li class="btn">ツイートと返信</li>
+      <li class="btn"><!--<a href="media.html.erb">-->メディア</li>
+      <li class="btn"><!--<a href="likes.html.erb">-->いいね</li>
+    </ul>
+  </div>
+</nav>
+
+<style>
+
+    .navbar{
+      width:max-content;
+    }
+    .nav{
+        list-style: none;
+        display:flex;
+        font-size:0.8em;
+    }
+    
+    .btn{
+        padding:10px 30px;
+        margin:2em;
+        text-align: center;
+        color:gray;
+    }
+    
+    .btn a{
+      text-decoration:none;
+      font-size:0.8em;
+    }
+    
+    .selected a {
+      
+      border-bottom: 2px solid blue; /* 選択されたメニューの下線色 */
+      color: black; /* 選択されたメニューのテキスト色 */
+    }
+</style>

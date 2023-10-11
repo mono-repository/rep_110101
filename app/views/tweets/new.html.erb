@@ -10,5 +10,9 @@
 <%= form_for @tweet , url: {action: :create} do |f| %>
     <%= f.label :message, 'メッセージ' %>
     <%= f.text_field :message %>
+    
+    <%= f.label :image, '画像' %>
+    <%= f.file_field :image %> <!-- 画像のアップロードフィールド -->
+    
     <%= f.submit '登録' %>
 <% end %>

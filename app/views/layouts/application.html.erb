@@ -11,6 +11,47 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div id="container">
+      <div id = "main">
+        <div id="header">
+          <%= render "header" %>
+        </div>
+        <div id="content">
+          <%= yield %>
+        </div>
+        <div id="footer">
+          <%= render "footer" %>
+        </div>
+      </div>
+        
+      <div id="sidebar">
+        <%= render "sidebar" %>
+      </div>
+    </div>
   </body>
 </html>
+
+<style>
+  header{background: #7fff7f;}
+  .container{background: #FFFFFF;}
+  footer{background: #ffbf7f;}
+
+div#container {
+  width: 100%; /* 全体の幅を指定 */
+}
+
+div#sidebar{
+  width:30%;
+  float: left; /* 左にフロート */
+}
+
+div#main{
+  width:70%;
+  float: right;
+}
+
+
+</style>
+
+
+
