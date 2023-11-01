@@ -1,0 +1,47 @@
+<div class="body">
+    <div class="post">
+        <div class="header">
+            <div class ="icon">
+                <%= image_tag 'icon.jpeg', style: "border-radius: 50%; width: 65px; height: 65px; object-fit:cover;" %>
+            </div>
+            <div>
+                <div class ="name">USER01<i class="fa-solid fa-award" style="color: #005eff;"></i></div>
+                カラーマネジメント」とは、画像データを取り扱うデバイス間での色合わせを行うための仕組みである。モニターやカメラ、PCなどでも設定することができ、sRGB(Standard RGB)やAdobe RGBなど様々な種類のプロファイルが存在する。<br>
+                なぜカラーマネジメントシステムが必要かというと、モニターが画像データを出力する際にプロファイルが統一されていない場合、一つの画像が異なるデバイスで異なる出力がされてしまい、色や明るさ、コントラストの差によって見え方が異なってしまうからだ。<br>
+                <%= image_tag 'screenshot01.png', style: "width:360px; height:fit-content;object-fit:cover;" %>
+            </div>
+        </div>
+        
+        <div class="header">
+            <div class ="icon">
+                <%= image_tag 'icon.jpeg', style: "border-radius: 50%; width: 65px; height: 65px; object-fit:cover;" %>
+            </div>
+            <div>
+                <div class ="name">USER01<i class="fa-solid fa-award" style="color: #005eff;"></i></div>
+                カラーマネジメント」とは、画像データを取り扱うデバイス間での色合わせを行うための仕組みである。モニターやカメラ、PCなどでも設定することができ、sRGB(Standard RGB)やAdobe RGBなど様々な種類のプロファイルが存在する。<br>
+                なぜカラーマネジメントシステムが必要かというと、モニターが画像データを出力する際にプロファイルが統一されていない場合、一つの画像が異なるデバイスで異なる出力がされてしまい、色や明るさ、コントラストの差によって見え方が異なってしまうからだ。<br>
+                <%= image_tag 'screenshot01.png', style: "width:360px; height:fit-content;object-fit:cover;" %>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .body{
+        width:80%;
+    }
+    .header{
+        margin:30px;
+        display:flex;
+    }
+    .icon{
+        object-fit: fill;
+    }
+    .post{
+        border: dashed gray;
+    }
+    .name{
+        font-weight:bold;
+        font-size:1em;
+    }
+</style>
